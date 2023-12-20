@@ -1,10 +1,10 @@
-# Requirements
+## Requirements
 
 - Python
 - [pipenv](https://pipenv.pypa.io/en/latest/)
 - [pre-commit](https://pre-commit.com/)
 
-# Setup
+## Setup
 
 Install pre-commit hooks:
 
