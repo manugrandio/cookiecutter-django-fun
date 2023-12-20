@@ -1,3 +1,5 @@
+# {{cookiecutter.project_name}}
+
 ## Requirements
 
 - Python
