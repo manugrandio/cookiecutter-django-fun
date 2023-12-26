@@ -33,6 +33,19 @@ It has a Django project layout based on the one described by "Two Scoops of Djan
         └── views.py
 ```
 
+That way, you just need to run the following:
+
+```
+pre-commit install
+pipenv install
+```
+
+And now you can start developing the app.
+For example, you can run the following without issues:
+
+```
+pipenv run python manage.py runserver
+```
 
 ## Usage
 
