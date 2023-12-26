@@ -1,6 +1,38 @@
 # Cookiecutter Django Fun
 
 Just a simple [cookiecutter](http://cookiecutter.readthedocs.org/) template for small Django projects and having some fun.
+It creates a project managed with [pipenv](https://pipenv.pypa.io/en/latest/):
+
+- `Pipenv` and `Pipenv.lock` so that you can just run `pipenv install`
+- [pre-commit](https://pre-commit.com/) configuration so that you can just run `pre-commit install`
+
+It has a Django project layout based on the one described by "Two Scoops of Django 3.x":
+
+```
+.
+├── LICENSE.txt
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── config
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── manage.py
+└── project_slug
+    └── main_app
+        ├── __init__.py
+        ├── admin.py
+        ├── apps.py
+        ├── migrations
+        │   └── __init__.py
+        ├── models.py
+        ├── tests.py
+        └── views.py
+```
+
 
 ## Usage
 
