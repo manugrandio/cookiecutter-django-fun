@@ -68,3 +68,8 @@ cookiecutter cookiecutter-django-fun
 ```
 
 Then, follow the steps described in the `README.md` of the project you just generated.
+
+## Pending additions
+
+- `pytest` support
+- `coverage` support
