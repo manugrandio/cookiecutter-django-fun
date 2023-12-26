@@ -73,3 +73,4 @@ Then, follow the steps described in the `README.md` of the project you just gene
 
 - `pytest` support
 - `coverage` support
+- Support for different environments: base, local, test and production
